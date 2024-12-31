@@ -11,6 +11,7 @@
             numbersList.Add(40);
             numbersList.Add(50);
             CustomList<int> numbers=new CustomList<int>();
+            int num=numbers[2];
             numbers.Add(60);
             numbers.Add(70);
             numbers.Add(80);
