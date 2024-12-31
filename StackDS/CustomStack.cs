@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace StackDS
 {
@@ -28,6 +25,7 @@ namespace StackDS
             _capacity=4;
             _array=new Type[_capacity];
         }
+
 
         public CustomStack(int size)
         {
