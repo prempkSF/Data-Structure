@@ -219,7 +219,7 @@ namespace ListDS
             {
                 for(int j=0;j<_count-1;j++)
                 {
-                    if(isGreater(_array[j],_array[j+1]))
+                    if(IsGreater(_array[j],_array[j+1]))
                     {
                         //Swap
                         Type temp=_array[j];
@@ -230,7 +230,7 @@ namespace ListDS
             }
         }
 
-        public bool isGreater(Type value1,Type value2)
+        public bool IsGreater(Type value1,Type value2)
         {
             //Compare
             int compare=Comparer<Type>.Default.Compare(value1,value2);
